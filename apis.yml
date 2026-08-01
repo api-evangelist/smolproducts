@@ -1,8 +1,24 @@
 aid: smolproducts
-name: smolproducts
-description: smolproducts is a company surfaced as a portfolio company of balderton-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smolproducts.png
+name: smol
+description: smol (smol.com, formerly reachable via smolproducts.com) is a UK-based Certified
+  B Corporation direct-to-consumer home cleaning brand founded in 2018 by ex-Unilever product
+  leaders. It sells concentrated, eco-conscious laundry capsules, dishwasher tablets, and
+  household cleaning products on a letterbox subscription model designed to cut plastic,
+  carbon, and chemical waste. smol runs a consumer e-commerce storefront and a Zendesk help
+  centre only; enrichment found no public developer API, OpenAPI definition, SDKs, webhooks,
+  or agent/MCP surface.
 url: https://raw.githubusercontent.com/api-evangelist/smolproducts/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Consumer Goods
+- Ecommerce
+- Subscription
+- Home Cleaning
+- Sustainability
+- B Corp
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +45,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.smolproducts.com/
+  url: https://smol.com/uk
+- type: Support
+  url: https://help.smolproducts.com/hc/en-us
+- type: TermsOfService
+  url: https://smol.com/uk/terms-of-service
+- type: PrivacyPolicy
+  url: https://smol.com/uk/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
